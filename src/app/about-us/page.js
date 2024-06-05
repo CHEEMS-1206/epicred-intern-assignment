@@ -5,6 +5,7 @@ import About from "../../components/About";
 import VisionMission from "../../components/VisionMission";
 import ImpactNumbers from "../../components/ImpactfulNumbers";
 import Founders from "../../components/Founders";
+import Services from "../../components/Services";
 
 export default function AboutUs() {
   return (
@@ -18,6 +19,7 @@ export default function AboutUs() {
       <VisionMission />
       <ImpactNumbers />
       <Founders />
+      <Services />
     </>
   );
 }
