@@ -7,6 +7,7 @@ import ImpactNumbers from "../../components/ImpactfulNumbers";
 import Founders from "../../components/Founders";
 import Services from "../../components/Services";
 import ContactForm from "../../components/ContactForm";
+import Footer from "../../components/Footer";
 
 export default function AboutUs() {
   return (
@@ -22,6 +23,7 @@ export default function AboutUs() {
       <Founders />
       <Services />
       <ContactForm />
+      <Footer/>
     </>
   );
 }

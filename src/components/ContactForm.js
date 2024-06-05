@@ -9,7 +9,7 @@ const ContactForm = () => {
       </h2>
       <div className="form-container">
         <div>
-          <form className="space-y-6">
+          <form className="space-y-5">
             <input
               type="text"
               placeholder="Name"
