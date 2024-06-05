@@ -6,7 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --body-banner-color : #E34731;
+  --body-banner-color: #e34731;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,16 +24,18 @@
 }
 
 /* // HOMEPAGE STYLE //  */
-#move-to-about-us{
+#move-to-about-us {
   font-size: 35px;
   color: var(--body-banner-color);
 }
 
 /* // HEADER STYLE //  */
-.about-us-header{
+.about-us-header {
   background-color: white;
   color: black;
 }
+
+/* // navbar  */
 .about-us-header .container nav ul li {
   font-weight: 600;
 }
@@ -44,12 +46,52 @@
   transition-duration: 400ms;
   transform: all;
 }
-.about-us-header .container #apply-now-btn{
+.about-us-header .container #apply-now-btn {
   background-color: var(--body-banner-color);
   color: white;
 }
-.about-us-header .container #company-logo{
+.about-us-header .container #company-logo {
   background-color: transparent;
   color: var(--body-banner-color);
   font-size: 25px;
+}
+
+/* // MAIN CONTENT STYLE //  */
+.section-title {
+  width: 189px;
+  height: 50px;
+}
+.sub-title-section{
+  color: var(--body-banner-color);
+}
+
+/* // banner */
+.banner-section {
+  height: 372px;
+  background-color: var(--body-banner-color);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner-section #edu-fin {
+  margin-top: 30px;
+  font-size: 55px;
+  color: #f0b827;
+}
+
+/* // about us section  */
+.about-us-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-us-section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1220px;
+  height: max-content;
+  gap: 0px;
+  opacity: 0px;
 }
