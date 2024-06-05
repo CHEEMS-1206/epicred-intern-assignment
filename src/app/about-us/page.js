@@ -4,6 +4,7 @@ import Banner from "../../components/Banner";
 import About from "../../components/About";
 import VisionMission from "../../components/VisionMission";
 import ImpactNumbers from "../../components/ImpactfulNumbers";
+import Founders from "../../components/Founders";
 
 export default function AboutUs() {
   return (
@@ -16,6 +17,7 @@ export default function AboutUs() {
       <About />
       <VisionMission />
       <ImpactNumbers />
+      <Founders />
     </>
   );
 }
