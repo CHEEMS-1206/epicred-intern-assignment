@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../../components/Header";
 import Banner from "../../components/Banner";
 import About from "../../components/About";
+import VisionMission from "../../components/VisionMission";
 
 export default function AboutUs() {
   return (
@@ -12,8 +13,7 @@ export default function AboutUs() {
       <Header />
       <Banner />
       <About />
-      <main>
-      </main>
+      <VisionMission />
     </>
   );
 }
