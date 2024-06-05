@@ -60,6 +60,8 @@
 .section-title {
   width: max-content;
   height: 50px;
+  font-size: 32px;
+  margin-top: 15px;
 }
 .sub-title-section {
   color: var(--body-banner-color);
@@ -96,6 +98,7 @@
   opacity: 0px;
 }
 
+/* // mission and visions page  */
 .mission-vision-section {
   width: 100%;
   display: flex;
@@ -103,7 +106,6 @@
   align-items: center;
   flex-direction: column;
 }
-
 .mission-vision-section .component-holder {
   width: 70%;
   margin: 20px 15%;
@@ -129,10 +131,44 @@
   background-color: rgba(236, 210, 106, 0.6);
 }
 #visionImage {
-  background-color:rgba(209, 113, 225, 0.6);
+  background-color: rgba(209, 113, 225, 0.6);
 }
-.image-mis-vis{
+.image-mis-vis {
   height: 175px;
   width: 200px;
   margin: 25px auto;
+}
+
+/* // impactful numbers  */
+
+.imp-num-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(245, 246, 247, 1);
+}
+.num-container{
+  margin: 50px 0;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.numberVal{
+  font-size: 61px;
+  font-weight: 700;
+  color: rgb(65, 65, 243);
+}
+.number-val-title{
+  font-size: 31px;
+  font-weight: 700;
+  color:black
+}
+.number-val-desc{
+  font-size: 18px;
+  font-weight: 300;
+  color:grey
 }

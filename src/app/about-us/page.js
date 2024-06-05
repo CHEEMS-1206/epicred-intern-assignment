@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Banner from "../../components/Banner";
 import About from "../../components/About";
 import VisionMission from "../../components/VisionMission";
+import ImpactNumbers from "../../components/ImpactfulNumbers";
 
 export default function AboutUs() {
   return (
@@ -14,6 +15,7 @@ export default function AboutUs() {
       <Banner />
       <About />
       <VisionMission />
+      <ImpactNumbers />
     </>
   );
 }
